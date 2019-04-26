@@ -1,0 +1,301 @@
+@charset "UTF-8";
+/*
+    sh
+    多行注释
+*/
+body {
+  background-image: url(../images/body.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 500px; }
+
+div.title {
+  width: 215px;
+  height: 530px;
+  background-image: url(../images/title-b.png);
+  background-size: 100%  120%;
+  position: absolute;
+  left: 51px;
+  background-repeat: no-repeat; }
+
+div.logo {
+  text-align: center;
+  margin-top: 17px; }
+
+div.logo p {
+  font-size: 20px;
+  padding-bottom: 2px; }
+
+div.logo p:nth-child(3) {
+  border-bottom: 1px solid #000000;
+  width: 130px;
+  margin: auto; }
+
+div.logo p:nth-child(4) {
+  font-size: 12px;
+  margin-top: 5px;
+  transform: scale(0.8, 0.8); }
+
+button {
+  width: 156px;
+  height: 37px;
+  display: block;
+  margin: auto;
+  background-image: url(../images/button.png);
+  color: #ffffff;
+  margin-top: 31px; }
+
+div.quick {
+  margin-top: 10px; }
+  div.quick a {
+    display: block; }
+  div.quick a.list {
+    font-size: 12px;
+    margin: 0 20px 0 20px;
+    padding: 10px 31px;
+    background: url(../images/squre.png) no-repeat;
+    background-position: 10px 50%;
+    border-bottom: 1px solid transparent;
+    border-image: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0), #cccccc, rgba(0, 0, 0, 0)) 30 30;
+    border-image: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0), #cccccc, rgba(0, 0, 0, 0)) 30 30;
+    border-image: linear-gradient(90deg, rgba(0, 0, 0, 0), #cccccc, rgba(0, 0, 0, 0)) 30 30; }
+  div.quick a.list:first-child {
+    border: none;
+    margin: 0 50px;
+    font-size: 18.03px;
+    color: #cccc99; }
+  div.quick p {
+    font-size: 14px;
+    width: 100%;
+    height: 24px;
+    background: rgba(214, 190, 142, 0.45);
+    line-height: 24px;
+    font-size: 14px;
+    color: #996633;
+    box-sizing: border-box;
+    padding-left: 26px; }
+
+.hotel-context {
+  width: 625px;
+  height: 554px;
+  position: absolute;
+  right: 10%; }
+  .hotel-context .massage {
+    position: absolute;
+    background-color: rgba(86, 142, 208, 0.7);
+    width: 317px;
+    height: 138px;
+    top: 176px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #ffffff;
+    font-size: 42px;
+    text-align: center; }
+    .hotel-context .massage p:nth-child(1) {
+      display: flex;
+      align-items: center;
+      width: 256px;
+      font-size: 28px;
+      margin: auto;
+      margin-top: 23px; }
+    .hotel-context .massage p {
+      margin-top: 10px; }
+  .hotel-context .h-image {
+    width: 100%;
+    height: 402px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    align-items: center; }
+    .hotel-context .h-image div.bg:nth-child(1) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-1.png);
+      align-self: flex-start;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(2) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-2.png);
+      align-self: flex-start;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(3) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-3.png);
+      align-self: flex-start;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(4) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-4.png);
+      align-self: flex-start;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(5) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-5.png);
+      align-self: auto;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(6) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-6.png);
+      align-self: auto;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(7) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-7.png);
+      align-self: auto;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(8) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-8.png);
+      align-self: auto;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(9) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-9.png);
+      align-self: flex-end;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(10) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-10.png);
+      align-self: flex-end;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(11) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-11.png);
+      align-self: flex-end;
+      cursor: pointer; }
+    .hotel-context .h-image div.bg:nth-child(12) {
+      width: 24%;
+      height: 32%;
+      background: url(../images/hotel-12.png);
+      align-self: flex-end;
+      cursor: pointer; }
+    .hotel-context .h-image div div.on {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(86, 142, 208, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 16px;
+      position: relative; }
+      .hotel-context .h-image div div.on .supre {
+        width: 20px;
+        height: 20px;
+        border: 10px solid transparent;
+        position: absolute; }
+      .hotel-context .h-image div div.on .supre:nth-child(1) {
+        border-color: #ffffff transparent transparent #ffffff;
+        top: 0;
+        left: 0; }
+      .hotel-context .h-image div div.on .supre:nth-child(2) {
+        border-color: transparent transparent #ffffff #ffffff;
+        bottom: 0;
+        left: 0; }
+      .hotel-context .h-image div div.on .supre:nth-child(3) {
+        border-color: #ffffff #ffffff transparent transparent;
+        top: 0;
+        right: 0; }
+      .hotel-context .h-image div div.on .supre:nth-child(4) {
+        border-color: transparent #ffffff #ffffff transparent;
+        bottom: 0;
+        right: 0; }
+  .hotel-context .button {
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between; }
+    .hotel-context .button a {
+      display: block;
+      height: 100%;
+      width: 201px;
+      text-align: center;
+      line-height: 45px;
+      color: #ffffff;
+      position: relative; }
+    .hotel-context .button a:nth-child(1) {
+      background-color: #438de9; }
+    .hotel-context .button a:nth-child(2) {
+      background-color: #ffb200; }
+    .hotel-context .button a:nth-child(3) {
+      background-color: #fb93b3; }
+
+footer {
+  width: 100%;
+  height: 92px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff; }
+  footer .list {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/footer.png);
+    background-size: contain; }
+    footer .list .list-l {
+      float: left;
+      width: 100%;
+      margin-left: 103px; }
+      footer .list .list-l a {
+        display: inline-block;
+        margin-right: 1px; }
+    footer .list .list-r {
+      width: 441px; }
+      footer .list .list-r a:nth-child(1) {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background: url(../images/footer-m1.png) no-repeat content-box;
+        background-position: 50%; }
+      footer .list .list-r a:nth-child(2) {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background: url(../images/footer-m2.png) no-repeat content-box;
+        background-position: 50%; }
+      footer .list .list-r a:nth-child(3) {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background: url(../images/footer-m3.png) no-repeat content-box;
+        background-position: 50%; }
+      footer .list .list-r a:nth-child(4) {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background: url(../images/footer-m4.png) no-repeat content-box;
+        background-position: 50%; }
+      footer .list .list-r a:nth-child(5) {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        background: url(../images/footer-m5.png) no-repeat content-box;
+        background-position: 50%; }
+    footer .list .QR {
+      margin-right: 10px; }
+      footer .list .QR .big {
+        position: absolute;
+        top: -77px;
+        right: 32px; }
+  footer .buttom {
+    text-align: right;
+    color: #996633;
+    margin: 13px 100px 0  0; }
+
+/*# sourceMappingURL=index.css.map */
